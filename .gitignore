@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Como Monetizar no TikTok</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff9fa;
+      color: #2d3748;
+      line-height: 1.6;
+      padding: 0;
+      margin: 0;
+    }
+    header {
+      background: #fe2c55;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+    .aula {
+      background: white;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      margin-bottom: 2rem;
+    }
+    .aula h2 {
+      color: #fe2c55;
+      margin-bottom: 1.2rem;
+      font-size: 1.6rem;
+    }
+    .aula h3 {
+      margin: 1.2rem 0 0.6rem;
+      color: #e53e3e;
+    }
+    .aula p, .aula li {
+      margin-bottom: 0.8rem;
+    }
+    ul, ol {
+      padding-left: 1.5rem;
+      margin: 0.8rem 0;
+    }
+    .navegacao {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2rem;
+    }
+    .btn {
+      padding: 0.6rem 1.2rem;
+      background: #fe2c55;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background: #e0254a;
+    }
+    .btn:disabled {
+      background: #ccc;
+      pointer-events: none;
+      opacity: 0.6;
+    }
+    .indice {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .indice a {
+      display: inline-block;
+      margin: 0.3rem;
+      padding: 0.4rem 0.8rem;
+      background: #f8f9fa;
+      color: #fe2c55;
+      text-decoration: none;
+      border-radius: 6px;
+      border: 1px solid #fe2c55;
+    }
+    .indice a:hover {
+      background: #fff2f5;
+    }
+    .indice a.ativo {
+      background: #fe2c55;
+      color: white;
+    }
+    @media (max-width: 600px) {
+      .aula { padding: 1.2rem; }
+      header h1 { font-size: 1.4rem; }
+      .btn { padding: 0.5rem 1rem; font-size: 0.9rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Como Monetizar no TikTok</h1>
+    <p>Guia Completo para Criadores Brasileiros</p>
+  </header>
+
+  <div class="container">
+    <div class="indice" id="indice"></div>
+
+    <div id="conteudo"></div>
+
+    <div class="navegacao">
+      <a href="#" id="btnAnterior" class="btn">◀ Anterior</a>
+      <a href="#" id="btnProximo" class="btn">Próximo ▶</a>
+    </div>
+  </div>
+
+  <script>
+    const aulas = [
+      {
+        titulo: "Introdução",
+        conteudo: `
+          <p>O TikTok se consolidou como uma das plataformas mais poderosas para criadores de conteúdo que desejam transformar sua paixão em renda. Com milhões de usuários ativos diariamente, a plataforma oferece múltiplas oportunidades de monetização que vão muito além da publicidade tradicional.</p>
+          <p>Neste guia completo, você descobrirá as estratégias mais eficazes para começar a ganhar dinheiro com seus vídeos, desde os programas oficiais do TikTok até parcerias com marcas e vendas de produtos próprios.</p>
+        `
+      },
+      {
+        titulo: "1. Programa de Criadores do TikTok",
+        conteudo: `
+          <p><strong>O Que é o TikTok Creator Rewards?</strong></p>
+          <p>O TikTok possui programas oficiais que remuneram criadores com base no desempenho orgânico dos vídeos. Embora os valores não sejam altíssimos, representa uma fonte adicional de renda passiva.</p>
+          <h3>Como o pagamento é calculado:</h3>
+          <ul>
+            <li><strong>Visualizações Reais:</strong> O algoritmo identifica visualizações autênticas e descarta bots.</li>
+            <li><strong>Tempo Assistido:</strong> Quanto mais tempo as pessoas assistem, maior o pagamento.</li>
+            <li><strong>Engajamento:</strong> Curtidas, compartilhamentos e comentários aumentam o valor.</li>
+            <li><strong>Qualidade Original:</strong> Vídeos originais têm prioridade.</li>
+          </ul>
+          <h3>Requisitos:</h3>
+          <ul>
+            <li>Ter 18 anos ou mais</li>
+            <li>10.000 seguidores (aproximadamente)</li>
+            <li>100 mil visualizações nos últimos 30 dias</li>
+            <li>Conta sem penalidades</li>
+          </ul>
+          <p><em>Realidade do Pagamento:</em> Valores baixos por visualização (centavos por milhares de views), mas compensa com consistência e vídeos virais.</p>
+          <h3>Estratégias para Maximizar Ganhos:</h3>
+          <ul>
+            <li>Gancho forte nos primeiros 2 segundos</li>
+            <li>Criar séries (Parte 1, 2, 3...)</li>
+            <li>Usar temas controversos que geram discussão</li>
+            <li>Contar histórias com narrativa completa</li>
+          </ul>
+        `
+      },
+      {
+        titulo: "2. Publicidade e Parcerias com Marcas",
+        conteudo: `
+          <p>Essa é, de longe, a forma mais lucrativa de monetizar no TikTok. Marcas investem pesado em criadores com audiência alinhada.</p>
+          <h3>Modelos de Remuneração:</h3>
+          <ul>
+            <li>Valores fixos por vídeo</li>
+            <li>Comissões por vendas</li>
+            <li>Bônus por desempenho</li>
+            <li>Permuta (presentes ou produtos)</li>
+            <li>Contratos de longo prazo</li>
+          </ul>
+          <h3>Faixas de Valor (Brasil):</h3>
+          <ul>
+            <li><strong>Micro-influenciadores (10k–50k):</strong> R$200 a R$1.500</li>
+            <li><strong>Médios (50k–500k):</strong> R$1.000 a R$10.000</li>
+            <li><strong>Grandes (+500k):</strong> R$10.000+</li>
+          </ul>
+          <h3>Como Conseguir Parcerias:</h3>
+          <ol>
+            <li>Defina seu nicho (maquiagem, finanças, humor, etc.)</li>
+            <li>Crie identidade visual única</li>
+            <li>Mantenha engajamento acima de 5%</li>
+            <li>Profissionalize sua bio (coloque e-mail)</li>
+            <li>Use plataformas como Squid, Influence.me, Spark</li>
+          </ol>
+          <p><strong>Truque:</strong> Use e mencione produtos que você já consome — marcas notam e procuram criadores autênticos.</p>
+        `
+      },
+      {
+        titulo: "3. Lives e Presentes Virtuais",
+        conteudo: `
+          <p>Durante lives, espectadores enviam presentes virtuais que viram "diamantes" e depois dinheiro real.</p>
+          <h3>Por que funciona:</h3>
+          <ul>
+            <li>Conexão humana direta</li>
+            <li>Experiência ao vivo e exclusiva</li>
+            <li>Senso de comunidade</li>
+          </ul>
+          <h3>Estratégias para Ganhar Mais:</h3>
+          <ul>
+            <li><strong>Interação constante:</strong> Agradeça cada presente e chame pelo nome.</li>
+            <li><strong>Crie dinâmicas:</strong> "Se chegarmos a 50 rosas, faço um desafio!"</li>
+            <li><strong>Seja consistente:</strong> Faça lives diárias, mesmo curtas (15–30 min).</li>
+          </ul>
+          <p><strong>Dica Profissional:</strong> Combine lives com vendas! Mostre produtos ao vivo, dê descontos exclusivos e use a urgência para converter.</p>
+        `
+      },
+      {
+        titulo: "4. Afiliados",
+        conteudo: `
+          <p>Ganhe comissões promovendo produtos de outras empresas sem ter estoque ou logística.</p>
+          <h3>Principais Plataformas:</h3>
+          <ul>
+            <li><strong>TikTok Shop:</strong> Programa oficial com integração nativa.</li>
+            <li><strong>Shopee e Amazon:</strong> Produtos físicos variados.</li>
+            <li><strong>Hotmart, Eduzz, Monetizze:</strong> Produtos digitais (cursos, e-books) com comissões de 50–80%.</li>
+          </ul>
+          <h3>Como Criar Vídeos que Vendem:</h3>
+          <ul>
+            <li><strong>Demonstração em ação:</strong> Mostre o produto funcionando.</li>
+            <li><strong>Antes e depois:</strong> Comparação visual poderosa.</li>
+            <li><strong>Listas:</strong> "Top 5 produtos baratinhos da Shopee".</li>
+            <li><strong>Storytelling:</strong> Conte sua história e como o produto resolveu um problema.</li>
+            <li><strong>Responda dúvidas:</strong> Use comentários para criar novos vídeos.</li>
+          </ul>
+          <p><strong>Truque:</strong> Não é preciso mostrar o rosto! Foque na clareza do produto.</p>
+        `
+      },
+      {
+        titulo: "5. Produtos e Serviços Próprios",
+        conteudo: `
+          <p>Esta é a forma mais lucrativa: você mantém 100% do lucro e constrói um negócio real.</p>
+          <h3>O que vender:</h3>
+          <ul>
+            <li><strong>Físicos:</strong> Roupas, beleza, pets, decoração, gadgets.</li>
+            <li><strong>Digitais:</strong> E-books, cursos, presets, templates, artes.</li>
+            <li><strong>Serviços:</strong> Consultorias, mentoria, aulas, coaching, design.</li>
+          </ul>
+          <h3>Estratégias de Vídeo:</h3>
+          <ol>
+            <li>Mostre uso real no dia a dia</li>
+            <li>Demonstre funcionamento prático</li>
+            <li>Use transformações (antes/depois)</li>
+            <li>Crie formatos simples e repetíveis</li>
+            <li>Termine com call to action claro: "link na bio", "chama no direct"</li>
+          </ol>
+          <p><strong>Exemplo:</strong> Um cabeleireiro pode mostrar transformações, vender cursos online e produtos profissionais — três fontes de renda do mesmo nicho.</p>
+        `
+      },
+      {
+        titulo: "6. Negócios Locais & Conteúdo Profissional",
+        conteudo: `
+          <p>Você não precisa ser influenciador para lucrar. Use o TikTok como vitrine para seu negócio local.</p>
+          <h3>Ideias por Segmento:</h3>
+          <ul>
+            <li><strong>Restaurantes:</strong> Mostre pratos sendo preparados e reações de clientes.</li>
+            <li><strong>Salões:</strong> Transformações de cabelo, maquiagem, antes/depois.</li>
+            <li><strong>Lojas de roupas:</strong> Prove looks, dicas de combinação, novas coleções.</li>
+            <li><strong>Serviços:</strong> Documente reformas, organizações, limpezas.</li>
+          </ul>
+          <h3>Fórmula para Vídeos de Negócios:</h3>
+          <ul>
+            <li>Duração ideal: 6–12 segundos</li>
+            <li>Estilo natural, não comercial</li>
+            <li>Produto em uso real</li>
+            <li>Linguagem simples e conversacional</li>
+          </ul>
+          <h3>Crie Conteúdo Para Empresas:</h3>
+          <p>Você pode ganhar criando vídeos para outros negócios:</p>
+          <ul>
+            <li>Gestão de TikTok (R$1.500–R$2.000/mês)</li>
+            <li>Edição de vídeos (R$100 por vídeo)</li>
+            <li>Consultoria de crescimento</li>
+          </ul>
+          <p>Clientes: lojas, restaurantes, prestadores de serviço e até influenciadores que precisam de apoio.</p>
+        `
+      },
+      {
+        titulo: "7. Segredos para Crescimento Acelerado",
+        conteudo: `
+          <p>O algoritmo recompensa <strong>retenção</strong>, não perfeição.</p>
+          <h3>Princípios-Chave:</h3>
+          <ol>
+            <li><strong>Foco na retenção:</strong> Faça o vídeo ser assistido até o final.</li>
+            <li><strong>Gancho irresistível:</strong> "Você nunca viu isso antes...", "Ninguém te conta isso..."</li>
+            <li><strong>Formato repetível:</strong> Encontre uma fórmula e replique.</li>
+            <li><strong>Simplicidade > Perfeição:</strong> Vídeos autênticos performam melhor.</li>
+            <li><strong>Consistência:</strong> Publique 2–4 vídeos por dia para acelerar o aprendizado e o algoritmo.</li>
+          </ol>
+          <p><strong>Lembre-se:</strong> Todo grande criador começou do zero. A diferença está na consistência, adaptação e foco em entregar valor real.</p>
+          <p>✅ Comece hoje. Teste. Analise. Repita. Escale.</p>
+        `
+      }
+    ];
+
+    let aulaAtual = 0;
+    const conteudoEl = document.getElementById('conteudo');
+    const indiceEl = document.getElementById('indice');
+    const btnAnterior = document.getElementById('btnAnterior');
+    const btnProximo = document.getElementById('btnProximo');
+
+    function renderizarAula(index) {
+      const aula = aulas[index];
+      conteudoEl.innerHTML = `
+        <div class="aula">
+          <h2>${aula.titulo}</h2>
+          ${aula.conteudo}
+        </div>
+      `;
+
+      // Atualizar botões
+      btnAnterior.style.display = index === 0 ? 'none' : 'inline-block';
+      btnProximo.textContent = index === aulas.length - 1 ? 'Finalizar' : 'Próximo ▶';
+
+      // Atualizar índice
+      indiceEl.innerHTML = '';
+      aulas.forEach((_, i) => {
+        const link = document.createElement('a');
+        link.href = '#';
+        link.textContent = i === 0 ? 'Início' : i;
+        if (i === index) link.classList.add('ativo');
+        link.onclick = (e) => {
+          e.preventDefault();
+          aulaAtual = i;
+          renderizarAula(i);
+        };
+        indiceEl.appendChild(link);
+      });
+    }
+
+    btnAnterior.onclick = (e) => {
+      e.preventDefault();
+      if (aulaAtual > 0) {
+        aulaAtual--;
+        renderizarAula(aulaAtual);
+      }
+    };
+
+    btnProximo.onclick = (e) => {
+      e.preventDefault();
+      if (aulaAtual < aulas.length - 1) {
+        aulaAtual++;
+        renderizarAula(aulaAtual);
+      } else {
+        alert('Parabéns! Você concluiu o curso. 🎉\nAgora é só aplicar e monetizar!');
+      }
+    };
+
+    // Iniciar na primeira aula
+    renderizarAula(0);
+  </script>
+</body>
+</html>
